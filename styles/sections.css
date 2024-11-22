@@ -19,9 +19,13 @@
         background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
 
     }
+
     figcaption{
         position: absolute;
         bottom: 0;
+        &:has(.text-lg) {
+            padding: 12px;
+        }
 
         padding: 24px;
     }
