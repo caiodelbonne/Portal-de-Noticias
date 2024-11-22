@@ -1,0 +1,17 @@
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+.grid{
+    display: grid;
+}
+.grid-flow-colun{
+    grid-auto-flow: column;
+}
+.grid-flow-colun-2{
+    grid-template-columns: 1fr 1fr;
+}
+.gap-16 {
+    gap: 16px;
+}
