@@ -5,3 +5,27 @@
         border-radius: 4px;
     }
 }
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        /* abslouto na pagina */
+        background: linear-gradient(180deg, rgba(2, 6, 23, 0) 0%, #020617 100%);
+
+    }
+    figcaption{
+        position: absolute;
+        bottom: 0;
+
+        padding: 24px;
+    }
+    h2{
+        margin-top: 8px;
+    }
+}
