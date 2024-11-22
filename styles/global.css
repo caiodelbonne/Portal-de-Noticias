@@ -33,7 +33,13 @@ img {
     padding-inline: 32px;
     margin-inline: auto;
 }
+
 main{
     margin-top: 40px;
-    
+    gap: 80px;
+    grid-template-areas: 
+    "featured featured"
+    "weekly weekly"
+    "ai aside"
+    ;
 }
